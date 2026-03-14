@@ -1,0 +1,37 @@
+:root {
+    --git-orange: #f05032;
+    --dark-bg: #2d2d2d;
+    --text-color: #f8f8f2;
+}
+
+body {
+    background-color: var(--dark-bg);
+    color: var(--text-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    border: 3px solid var(--git-orange);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.card {
+    background: #444;
+    padding: 15px;
+    margin: 20px 0;
+    border-left: 5px solid var(--git-orange);
+}
+
+code {
+display: block;
+background: #000;
+padding: 10px;
+color: #0f0;
+}
