@@ -5,7 +5,7 @@ btn.addEventListener('click', () => {
     const newBranch = prompt("¿A qué rama quieres saltar?");
     if (newBranch) {
         branchLabel.innerText = newBranch;
-        branchLabel.style.color = "#f05032";
+        branchLabel.style.color = "#328bf0";
         console.log(`Cambiando contexto a: ${newBranch}`);
     }
 });
